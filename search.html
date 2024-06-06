@@ -7,48 +7,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
     <div class="music-body">
-    <div class="sidebar">
-        <h2 id="logo">MUSICA</h2>
-        <br><br>
-        <h3 id="menu">LIBRARY</h3><br><br>
-        <ul>
-            <li><a href="index.html">Home</a></li><br><br>
-            <li><a href="genres">Genres</a></li><br><br>
-            <li><a href="#">Daily Mixes</a></li><br><br>
-            <li><a href="#">New Releases</a></li><br><br>
-            <li><a href="#">Albums</a></li>
-        </ul>
-    </div>
-
+        <div class="sidebar">
+            <h2 id="logo">MUSICA</h2>
+            <br><br>
+            <h3 id="menu">LIBRARY</h3><br><br>
+            <ul>
+                <li><a href="index.html">Home</a></li><br><br>
+                <li><a href="#feature">Featured Music</a></li><br><br>
+                <li><a href="#musicList">Genres</a></li><br><br>
+                <li><a href="#albumsSection">Albums</a></li>
+            </ul>
+        </div>
         <main id="searchSection">
             <section>
                 <input type="text" id="searchInput" placeholder="Search for songs or artists">
                 <button id="searchButton">Search</button>
             </section>
-    
             <section>
                 <div id="resultsList"></div>
             </section>
-        <section id="featured" class="content-section">
-            <h2>Featured Music</h2>
-            <div class="music-list" id="musicList">
-            </div>
-
-            <div class="genre-list" id="genreList">
-                <div id="songsList"></div>
-                <div id="genreList"></div>
-            </div>
-        </section>
-    </main>
-</div>
-   
-    <div id="songs"></div>
-    <div id="genres"></div>
+            <h2 class="titlename" id="feature">Featured Music</h2>
+            <section id="featured" class="content-section">
+                <div class="music-list" id="musicList"></div>
+            </section>
+            <h2 class="titlename">Genres</h2>
+            <section id="genresSection" class="content-section">
+                <div class="section" id="genresSection"></div>
+            </section>
+            <section id="artistsSection" class="content-section">
+                <div class="section" id="artistsSection"></div>
+            </section>
+            <h2 class="titlename">Albums</h2>
+            <section id="albumsSection" class="content-section">
+                <div class="section" id="albumsSection"></div>
+            </section>
+        </main>
+    </div>
     <footer>
        <p>&copy; 2024 Musica. All rights reserved Tech Marvels.</p>
     </footer>
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
