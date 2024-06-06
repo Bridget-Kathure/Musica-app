@@ -125,3 +125,48 @@ body{
       margin-left: 20px;
     }
 }
+
+@media only screen and (min-width: 781px) and (max-width: 880px) {
+
+  #searchInput {
+      padding: 10px;
+      font-size: 15px;
+      margin-left: 29%;
+      margin-top: 15%;
+    }
+    #searchButton {
+      padding: 10px;
+      font-size: 15px;
+      margin-left: 20px;
+    }
+  #resultsList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .music-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+  }
+  .content-section{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+  }
+  .music-item h3 {
+      font-size: 13px;
+      margin-top: 20px;
+  }
+  .music-item a {
+      margin-top: 20px;
+      font-size: 12px;
+  }
+  #logo{
+    font-size:25px;
+    
+  }
+      }
