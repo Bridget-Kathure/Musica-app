@@ -50,3 +50,78 @@ body{
  }
 
 }
+
+
+
+
+
+@media screen and (max-width: 550px) {
+  .sidebar {
+     display: none;
+  }
+ #hamburger-nav{
+     display:flex;
+ }
+}
+@media only screen and (min-width: 280px) and (max-width: 359px) {
+  #searchInput {
+      width: 20px;
+      font-size: 15px;
+      margin-left: 0%;
+      margin-top: 5%;
+    }  
+
+    #searchButton {
+      font-size: 15px;
+      border-radius: 10px;
+      margin: 50px;
+    }
+
+    #resultsList{
+      margin-left:-15% ;
+    }
+    .music-list {
+      margin-left:-15% ;
+    }
+   
+    #seeLessButton, #seeMoreButton{
+      width: 150px;
+      margin-top: 5%;
+      margin-left: 5%;
+    }
+    .titlename{
+      margin-left: 60px;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 380px) {
+  #searchInput {
+      width: 55px;
+      font-size: 20px;
+      margin-left: 0%;
+      margin-top: 5%;
+    }  
+
+    #searchButton {
+      font-size: 15px;
+      width: 250px;
+      border-radius: 10px;
+      margin-left: 5px;
+      margin-top: 20px;
+    }
+
+    #resultsList{
+      margin-left:-15% ;
+    }
+    .music-list {
+      margin-left:-15% ;
+    }
+   
+    #seeLessButton, #seeMoreButton{
+      width: 150px;
+      margin-top: 5%;
+      margin-left: 5%;
+    }
+    .titlename{
+      margin-left: 20px;
+    }
+}

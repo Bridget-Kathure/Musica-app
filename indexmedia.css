@@ -17,3 +17,69 @@ body{
 }
 }
 
+
+@media only screen and (min-width: 280px) and (max-width: 359px) {
+    body{
+     background-size: 260px 580px;
+     background-position: 40px 50px 50px;
+     background-repeat: no-repeat;
+     overflow: hidden;
+   
+    }
+    h1{
+     font-size: 50px;
+   }
+   #land{
+     width: 80%;
+     margin-left: 20px;
+     height: 85vh;    
+   }
+   .btn_start{
+     padding: 20px;
+     width: 200px;
+     font-size: 15px;
+     margin-left: 5%;
+ 
+   }
+   .welcome_message{
+     font-size: 30px;
+     }
+     .text{
+         font-size: 25px;
+         text-align: center;
+         }
+ 
+ }
+ 
+ @media only screen and (min-width: 360px) and (max-width: 380px) {
+     body{
+         background-size: 355px 680px;
+         background-position: 40px 50px 50px;
+         background-repeat: no-repeat;
+         overflow: hidden;
+     }
+     h1{
+      font-size: 50px;
+    }
+    #land{
+      width: 85%;
+      height: 85vh;   
+      margin-left: 10px; 
+    }
+    .btn_start{
+      padding: 20px;
+      width: 260px;
+      font-size: 15px;
+      margin-left: 5%;
+  
+    }
+    .welcome_message{
+      font-size: 40px;
+      }
+      .text{
+       font-size: 30px;
+       text-align: center;
+     }
+  
+  }
+ 
