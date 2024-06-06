@@ -1,0 +1,52 @@
+@media only screen and (min-width: 581px) and (max-width: 680px) {
+body{
+  padding: 0;
+  margin: 0;
+}
+  #searchButton{
+    margin-top: -23%;
+    width:100px;
+    height: 52px;
+    margin-left:0%;
+    font-size: 16px;
+    
+  }
+  #searchInput{
+    width: 65px;
+    height: 10px;
+    font-size: 16px;
+    margin-left: 20%;
+    margin-top: 9%;
+    text-align: start;
+
+  }
+  #logo{
+    font-size: 30px;
+    
+  }
+ .sidebar{
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom:0;
+  right: 0;
+  margin-left: -1%;
+  line-height: 14px;
+ }
+ #feature{
+  margin-left: 30%;
+  font-size: 28px;
+ }
+ #titlename{
+  margin-left: 30%;
+  font-size: 28px;
+ }
+ #seeLessButton, #seeMoreButton{
+  height: 50px;
+  margin-top: 80%;
+  margin-left: -35%;
+ }
+
+}
