@@ -1,0 +1,19 @@
+@media only screen and (min-width: 581px) and (max-width: 680px){
+.btn_start{
+    height:50px;
+    width: 250px;
+    font-size: 20px;
+    margin-left: 25%;
+}
+.welcome_message{
+    font-size: 30px;
+
+}
+.text{
+font-size: 20px;
+}
+body{
+    padding: 0;
+}
+}
+
