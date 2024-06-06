@@ -8,6 +8,9 @@ body {
     background-color:#171e27;
     color: #00FFFF;
 }
+#searchSection{
+  margin-left: 20%;
+}
 
 #searchInput {
     padding: 20px 100px;
@@ -103,6 +106,7 @@ footer {
     width: 100%;
     height: 30px;
     bottom: 0;
+   
 }
 
 .song {
@@ -155,21 +159,21 @@ footer {
     margin-left: 13%;
 }
 #logo{
-  margin-top: 20%;
-    margin-left: 10%;
+  margin-top: 22%;
+    margin-left: 8%;
     color: #00FFFF;
     font-size: 45px;
 }
 #menu{
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 8%;
     color: #00FFFF;
   
 }
 #music-body{
     display:flex;
     flex-direction: row;
-    gap:30px;
+  
 }
 
 .sidebar {
@@ -181,7 +185,7 @@ footer {
     bottom:0;
     padding-top: 20px;
     gap: 10px;
-    margin-left: 1%;
+    margin-left: 5%;
 }
 ul {
   color: #00FFFF;
@@ -198,10 +202,12 @@ a {
     display: block;
 }
 a:hover {
-    background-color: #555;
+  background-color: #2C738F;
+  height: 50px;
+  border-radius: 10px;
 }
 .content {
-    margin-left: 250px; /* Same as sidebar width */
+    margin-left: 250px; 
     padding: 20px;
 }
 
@@ -296,9 +302,13 @@ a:hover {
   .titlename{
     color: white;
     font-size: 30px;
-    margin-left: 45%;
+    text-align: center;
+    margin-top: 5%;
   }
-
+  #feature{
+    margin-top: 5%;
+    text-align: center;
+  }
 
 
 #hamburger-nav{
