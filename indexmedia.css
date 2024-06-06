@@ -82,4 +82,28 @@ body{
      }
   
   }
+
+  @media only screen and (min-width: 781px) and (max-width: 880px){
+
+    .btn_start{
+        height:70px;
+        width: 250px;
+        font-size: 20px;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    .welcome_message{
+        font-size: 35px;
+        margin-top: 30%;
+    
+    }
+    .text{
+    font-size: 25px;
+    }
+    .musicaTitle{
+        font-size: 60px;
+        margin-top: 5%;
+    }
+
+}
  
