@@ -30,15 +30,17 @@ body {
   }
 
 .btn_start{
-    background-color: #04D9FF;
-    border-radius: 16px;
+
+    padding: 20px 40px;
+    font-size: 26px;
+    background-color: #00FFFF;
+    color: #000;
     border: none;
-    padding: 20px 32px;
-    font-size: 24px;
+    border-radius: 10px;
     cursor: pointer;
     margin-left: 40%;
-    margin-top: 2%;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 5%;
+
   }
   .btn_start a{
   text-decoration: none;
@@ -47,12 +49,12 @@ body {
   
   
   .welcome_message{
-  font-size: 50px;
+  font-size: 70px;
   font-family: Arial, sans-serif;
   text-align: center;
   }
   .text{
-  font-size: 24px;
+  font-size: 40px;
   text-align: center;
   }
   .landing_text{
