@@ -13,7 +13,7 @@ body {
     border-radius: 10px;
     background-color: #0000;
     color: #00FFFF;
-    margin-left: 33%;
+    margin-left: 29%;
     align-items: center;
     margin-top: 5%;
   }
@@ -46,25 +46,12 @@ header {
     color: #00FFFF;
     padding: 10px 20px;
 }
-header .logo {
+/* header .logo {
     font-size: 40px;
     font-weight: bold;
     margin-top: 2%;
-}
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-    padding: 0;
-    margin: 0;
-}
-nav ul li {
-    display: inline;
-}
-nav ul li a {
-    color: #00FFFF;
-    text-decoration: none;
-}
+} */
+
 .content-section {
     padding: 40px;
     text-align: center;
@@ -170,4 +157,58 @@ footer {
     text-decoration: none;
     font-weight: bold;
   }
+  /* sidebar */
+  #searchSection{
+    margin-left: 13%;
+}
+#logo{
+  margin-top: 20%;
+    margin-left: 10%;
+    color: #00FFFF;
+    font-size: 45px;
+}
+#menu{
+    margin-top: 10%;
+    margin-left: 10%;
+    color: #00FFFF;
+  
+}
+#music-body{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom:0;
+    padding-top: 20px;
+    gap: 10px;
+    margin-left: 1%;
+}
+ul {
+  color: #00FFFF;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    padding: 10px 20px;
+}
+a {
+  color: #00FFFF;
+    text-decoration: none;
+    display: block;
+}
+a:hover {
+    background-color: #555;
+}
+.content {
+    margin-left: 250px; /* Same as sidebar width */
+    padding: 20px;
+}
 
