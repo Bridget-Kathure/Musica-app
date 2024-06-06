@@ -51,10 +51,6 @@ body{
 
 }
 
-
-
-
-
 @media screen and (max-width: 550px) {
   .sidebar {
      display: none;
@@ -63,6 +59,8 @@ body{
      display:flex;
  }
 }
+
+
 @media only screen and (min-width: 280px) and (max-width: 359px) {
   #searchInput {
       width: 20px;
@@ -94,6 +92,8 @@ body{
       margin-left: 60px;
     }
 }
+
+
 @media only screen and (min-width: 360px) and (max-width: 380px) {
   #searchInput {
       width: 55px;
@@ -127,37 +127,108 @@ body{
     }
 }
 
-@media only screen and (min-width: 781px) and (max-width: 880px) {
-
-  #searchInput {
-      padding: 10px;
-      font-size: 15px;
-      margin-left: 29%;
-      margin-top: 15%;
-    }
-    #searchButton {
-      padding: 10px;
-      font-size: 15px;
-      margin-left: 20px;
-    }
-  #resultsList{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+@media only screen and (min-width: 481px)  and (max-width: 580px) {
+  
+  #hamburger-nav{
+    display:flex;
+    margin-left: 10%;
   }
+  
+  .appName{
+    margin-left: 86%;
+    margin-top: -22%;
+    font-size: 40px;
+  
+  }
+  
+  #searchInput {
+      padding: 20px 33px;
+      font-size: 16px;
+      margin-left: -5%;
+      margin-bottom: 10%;
+  
+  }
+  
+  #searchButton {
+      padding: 20px 20px;
+      font-size: 16px;
+      margin-left: 20px;
+  }
+  
+  #result{
+      text-align: center;
+  }
+  
+  #resultsList{
+      display: flex;
+      flex-wrap: wrap;
+      width: 300px;
+      justify-content: center;
+  }
+  
+  header {
+      display: flex;
+      padding: 10px 10px;
+  }
+  
   .music-list {
       display: flex;
       flex-wrap: wrap;
       gap: 30px;
       justify-content: center;
+      width: 300px;
   }
-  .content-section{
+  
+  .titlename{
+      color: white;
+      font-size: 30px;
+      margin-left: 17%;
+      margin-top: 20%;
+  
+  }
+  #searchSection{
+      margin-top: 25%;
+  
+  }
+  
+  #seeLessButton{
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    padding: 25px 40px;
+    height: 60px;
+  
+  }
+  
+  #seeMoreButton{
+     height: 60px;
+      font-size: 16px;
+      margin-bottom: 70px;
+      margin-top: 20px;
+      margin-left: 20%;
+      margin-right: 20%;
+      align-items: center;
+      padding: 25px 40px;
+  }
+  
+  #resultsList{
       display: flex;
       flex-wrap: wrap;
-      gap: 30px;
+      width: 300px;
       justify-content: center;
+      margin-left: 8%;
   }
+  
+  #logo{
+      margin-top: 20%;
+        margin-left: 5%;
+        color: #00FFFF;
+        font-size: 38px;
+  }
+  
   .music-item h3 {
       font-size: 13px;
       margin-top: 20px;
@@ -174,13 +245,6 @@ body{
 
 
       @media screen and (min-width: 381px) and (max-width: 480px) {
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color:#171e27;
-            color: #00FFFF;
-        }
         #searchInput {
             width: 1%;
             height: 1px;
@@ -188,8 +252,8 @@ body{
             font-size: 5px;
             margin-left: 13%;
             text-align: start;
-            
           }
+        
           #searchButton {
             margin-top: 12px;
             padding: 24px 83px;
@@ -198,11 +262,12 @@ body{
             border-radius: 10px;
             cursor: pointer;
           }
+        
           #result{
             text-align: center;
         }
         #resultsList{
-            display: block;
+            display: flex;
             width: 160px;
             flex-wrap: wrap;
             justify-content: center;
@@ -214,10 +279,10 @@ body{
             width: 400px;
         }
           .titlename{
-            color: white;
             font-size: 20px;
             margin-left: 24%;
           }
+        
         #searchSection{
           width: 254px;
             margin-top: 25%;
@@ -230,6 +295,7 @@ body{
         height: 52px;
         font-size: 16px;
       }
+      
       #searchInput{
         width: 65px;
         height: 10px;
@@ -241,15 +307,36 @@ body{
       #logo{
         font-size: 30px;
       }
-      .sidebar{
-        height: 100%;
-        width: 180px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom:0;
-        right: 0;
-        margin-left: -2%;
-        line-height: 14px;
-       }
-    }
+
+  .welcome_message{
+      font-size: 23px;
+      margin-top: -353px;
+      font-family: Arial, sans-serif;
+      text-align: center;
+  }
+  
+  .text{
+    font-size: 17px;
+    text-align: center;
+   }
+  
+  
+  .btn_start{
+    padding: 10px 10px;
+    font-size: 26px;
+    background-color: #00FFFF;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20%; 
+    margin-left: -3px;
+  
+  }   
+  
+  #searchSection{
+    margin-left: 13%;
+    margin-top: -10%;
+  }
+  
+  }
