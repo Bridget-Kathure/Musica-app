@@ -82,4 +82,78 @@ body{
      }
   
   }
+
+  @media only screen and (min-width: 781px) and (max-width: 880px){
+
+    .btn_start{
+        height:70px;
+        width: 250px;
+        font-size: 20px;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    .welcome_message{
+        font-size: 35px;
+        margin-top: 30%;
+    
+    }
+    .text{
+    font-size: 25px;
+    }
+    .musicaTitle{
+        font-size: 60px;
+        margin-top: 5%;
+    }
+
+}
  
+
+@media screen and (min-width: 381px) and (max-width: 480px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color:#171e27;
+        color: #00FFFF;
+    }
+    .welcome_message{
+        font-size: 25px;
+    }
+    .musicaTitle{
+        font-size: 28px;
+    }
+    .text{
+        font-size: 18px;
+        }
+        .btn_start{
+            height:50px;
+            width: 200px;
+            margin-top: 100px;
+            font-size: 16px;
+            margin-left: 15%;
+        }
+        #land{
+            width: 85%;
+            height: 95vh;   
+            margin-left: 10px; 
+          }
+}
+@media only screen and (min-width: 681px) and (max-width: 780px){
+  .btn_start{
+      height:70px;
+      width: 250px;
+      font-size: 20px;
+      margin-left: 25%;
+      margin-top: 20%;
+  }
+  .welcome_message{
+      font-size: 35px;
+      margin-top: 20%;
+  }
+  .text{
+  font-size: 25px;
+  }
+  body{
+      padding: 0;
+  }
+}
