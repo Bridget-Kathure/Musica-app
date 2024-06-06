@@ -125,3 +125,181 @@ body{
       margin-left: 20px;
     }
 }
+
+@media only screen and (min-width: 481px)  and (max-width: 580px) {
+
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color:#171e27;
+      color: #00FFFF;
+  
+  }
+  
+  #hamburger-nav{
+    display:flex;
+    margin-left: 10%;
+  }
+  
+  .appName{
+    margin-left: 86%;
+    margin-top: -22%;
+    font-size: 40px;
+  
+  }
+  
+  #searchInput {
+      padding: 20px 33px;
+      font-size: 16px;
+      border: 1px solid #00FFFF;
+      border-radius: 10px;
+      background-color: #0000;
+      color: #00FFFF;
+      align-items: center;
+      margin-left: -5%;
+      margin-bottom: 10%;
+  
+  }
+  
+  #searchButton {
+      padding: 20px 20px;
+      font-size: 16px;
+      background-color: #00FFFF;
+      color: #000;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-left: 20px;
+  }
+  
+  #result{
+      text-align: center;
+  }
+  
+  #resultsList{
+      display: flex;
+      flex-wrap: wrap;
+      width: 300px;
+      justify-content: center;
+  }
+  
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: none;
+      color: #00FFFF;
+      padding: 10px 10px;
+  }
+  
+  .music-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      width: 300px;
+  }
+  
+  .titlename{
+      color: white;
+      font-size: 30px;
+      margin-left: 17%;
+      margin-top: 20%;
+  
+  }
+  #searchSection{
+      margin-top: 25%;
+  
+  }
+  
+  #seeLessButton{
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    padding: 25px 40px;
+    height: 60px;
+  
+  }
+  
+  #seeMoreButton{
+     height: 60px;
+      font-size: 16px;
+      margin-bottom: 70px;
+      margin-top: 20px;
+      margin-left: 20%;
+      margin-right: 20%;
+      align-items: center;
+      padding: 25px 40px;
+  }
+  
+  #resultsList{
+      display: flex;
+      flex-wrap: wrap;
+      width: 300px;
+      justify-content: center;
+      margin-left: 8%;
+  }
+  
+  #logo{
+      margin-top: 20%;
+        margin-left: 5%;
+        color: #00FFFF;
+        font-size: 38px;
+  }
+  
+  .content-section{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      width: 300px;
+      margin-left: 8%;
+      margin-top: 15%;
+  }
+  
+  #musica{
+      background-color: #000;
+      opacity: 70%;
+      width: 80%;
+      height: 80vh;
+      margin: -15px 10% 0px;
+      font-size: 45px;
+      margin-top: 23px;
+  }
+   
+  .welcome_message{
+      font-size: 23px;
+      margin-top: -353px;
+      font-family: Arial, sans-serif;
+      text-align: center;
+  }
+  
+  .text{
+    font-size: 17px;
+    text-align: center;
+   }
+  
+  
+  .btn_start{
+    padding: 10px 10px;
+    font-size: 26px;
+    background-color: #00FFFF;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20%; 
+    margin-left: -3px;
+  
+  }   
+  
+  #searchSection{
+    margin-left: 13%;
+    margin-top: -10%;
+  }
+  
+  }
