@@ -204,9 +204,15 @@ a {
   color: #00FFFF;
     text-decoration: none;
     display: block;
+    height: 40px;
+
 }
 a:hover {
-    background-color: #555;
+    height: 40px;
+    margin-left: -2%;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: #2c738f;
 }
 .content {
     margin-left: 250px; /* Same as sidebar width */
