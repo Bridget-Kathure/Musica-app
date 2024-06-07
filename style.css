@@ -11,15 +11,15 @@ body {
 #searchSection{
   margin-left: 20%;
 }
-
 #searchInput {
-    padding: 20px 100px;
+  width: 65%;
+    padding: 20px 10px;
     font-size: 26px;
     border: 1px solid #00FFFF;
     border-radius: 10px;
     background-color: #0000;
     color: #00FFFF;
-    margin-left: 29%;
+    margin-left: 11%;
     align-items: center;
     margin-top: 5%;
   }
@@ -32,8 +32,8 @@ body {
     border-radius: 10px;
     cursor: pointer;
     margin-left: 20px;
+    width: 16%;
   }
-
   #result{
   text-align: center;
 }
