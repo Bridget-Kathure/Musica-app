@@ -103,8 +103,7 @@ const UIController = (function() {
     genresSection: "#genresSection",
     artistsSection: "#artistsSection",
     albumsSection: "#albumsSection",
-    // seeMoreButton: '#seeMoreButton',
-    // seeLessButton: '#seeLessButton'
+
   }
   function displaySongs(songs, maxItems = 5) {
     const musicList = document.getElementById('musicList');
@@ -113,12 +112,7 @@ const UIController = (function() {
       const musicItem = createMusicItem(song);
       musicList.appendChild(musicItem);
     });
-    // if (songs.length > maxItems) {
-    //   const seeMoreButton = document.createElement('button');
-    //   seeMoreButton.textContent = 'See More';
-    //   seeMoreButton.setAttribute('id', 'seeMoreButton');
-    //   musicList.appendChild(seeMoreButton);
-    // }
+ 
   }
   function createMusicItem(song) {
     const musicItem = document.createElement('div');
@@ -137,13 +131,7 @@ const UIController = (function() {
     musicItem.appendChild(link);
     return musicItem;
   }
-  // function displayMoreSongs(songs) {
-  //   displaySongs(songs, songs.length);
-  //   const seeLessButton = document.createElement('button');
-  //   seeLessButton.textContent = 'See Less';
-  //   seeLessButton.setAttribute('id', 'seeLessButton');
-  //   musicList.appendChild(seeLessButton);
-  // }
+
   const displaySectionContent = (section, data, maxItems = 5) => {
     const sectionElement = document.querySelector(section);
     sectionElement.innerHTML = '';
@@ -166,12 +154,6 @@ const UIController = (function() {
       listItem.appendChild(link);
       sectionElement.appendChild(listItem);
     });
-    // if (data.length > maxItems) {
-    //   const seeMoreButton = document.createElement('button');
-    //   seeMoreButton.textContent = 'See More';
-    //   seeMoreButton.setAttribute('id', 'seeMoreButton');
-    //   sectionElement.appendChild(seeMoreButton);
-    // }
   };
   const displayArtistResults = async (artists) => {
     const resultsList = document.querySelector(DOMElements.resultsList);
@@ -211,7 +193,7 @@ const UIController = (function() {
     DOMElements: DOMElements,
     displayArtistResults: displayArtistResults,
     displaySongs: displaySongs,
-    // displayMoreSongs: displayMoreSongs,
+    
     displaySectionContent: displaySectionContent
   }
 })();
