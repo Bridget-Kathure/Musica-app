@@ -438,6 +438,11 @@
               margin-left: -3%;
              
             }
+            #resultsList{
+              width: 300px;
+              justify-content: center;
+              margin-left: 8%;
+          }
           
             #searchButton {
               margin-top: 12px;
