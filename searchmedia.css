@@ -191,29 +191,6 @@ body{
   
   }
   
-  #seeLessButton{
-    font-size: 16px;
-    margin-bottom: 0px;
-    margin-top: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
-    align-items: center;
-    padding: 25px 40px;
-    height: 60px;
-  
-  }
-  
-  #seeMoreButton{
-     height: 60px;
-      font-size: 16px;
-      margin-bottom: 70px;
-      margin-top: 20px;
-      margin-left: 20%;
-      margin-right: 20%;
-      align-items: center;
-      padding: 25px 40px;
-  }
-  
   #resultsList{
       display: flex;
       flex-wrap: wrap;
@@ -225,7 +202,6 @@ body{
   #logo{
       margin-top: 20%;
         margin-left: 5%;
-        color: #00FFFF;
         font-size: 38px;
   }
   
@@ -237,9 +213,10 @@ body{
       margin-top: 20px;
       font-size: 12px;
   }
-  #logo{
-    font-size:25px;
-    
+
+  #albumsSection{
+    margin-bottom: 140px;
+
   }
       }
 
