@@ -1,6 +1,3 @@
-
-
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -194,30 +191,18 @@ ul {
     margin: 0;
 }
 li {
-    padding: 10px 20px;
+  padding: 10px 20px;
+  width: 150px;
+  border-radius: 30px;
 }
 a {
   color: #00FFFF;
     text-decoration: none;
     display: block;
 }
-a:hover {
-  background-color: #2C738F;
-  height: 50px;
-  border-radius: 10px;
-}
 .content {
     margin-left: 250px; 
     padding: 20px;
-}
-
-#seeLessButton, #seeMoreButton{
-  background-color: #00FFFF;
-  color: black;
-  height: 50px;
-  margin-top: 300px;
-  border: none;
-  border-radius: 10px;
 }
 
   .genre {
@@ -385,4 +370,8 @@ a:hover {
 #albumsSection{
   margin-bottom: 30%;
 
+}
+
+.nav-item.active {
+  background-color: #2C738F;
 }
